@@ -14,36 +14,25 @@ header{
     background-color: #333;
     color: #fff;
     padding: 20px 0;
-
-}
-
-
-.container {
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
-    padding: 0 20px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
-h1{
-    margin: 0;
+header img {
+    height: 100px;
+    width: auto;
+    padding-left: 100px;
+    border-radius: 5px;
 }
-
-.header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.header h1 {
-    margin: 0;
-}
-
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    padding-right: 150px;
 }
 
 nav ul li {
@@ -64,28 +53,92 @@ nav ul li a {
     background-color: #555;
 }
 
-.section {
-    padding: 50px 0;
+#hero {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    color: white;
+    text-align: center;
+    padding: 10px 10%;
+    background-color: #1F2937;
 }
 
-/* Project Styles */
-.project {
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#hero p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+#hero button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px, 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    height: 50px;
+    width: 100px;
+}
+
+#hero picture {
+    background-color: #b6ccf8;
+    justify-content:center;
+    align-items:center;
+    padding-top: 8%;
+}
+
+#hero button:hover {
+    background-color: #0056b3;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
     margin-bottom: 20px;
 }
 
-.project h3 {
+#services h1 {
+    text-align: center;
+}
+
+#cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#cards div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+#cards h2 {
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.project p {
-    margin-bottom: 10px;
+#cards p {
+    font-size: 1em;
+    color: #666;
 }
 
-.project a {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 5px 10px;
-    text-decoration: none;
+#contact {
+    background-color: #b8b4b4;
+    justify-content: center;
+    text-align: center;
 }
-

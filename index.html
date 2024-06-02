@@ -4,59 +4,86 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haziadan - Full Stack Engineer</title>
-    <link rel="stylesheet" href="styles.css">
-    <!-- You can add any additional stylesheets or scripts here -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Haziadan</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="container">
+        <picture>
+            <img src="./images/profile.png" alt="Hazi's photo">
+        </picture>
+        <nav class="nav">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am Hazi Adan, a passionate software developer with expertise in HTML, CSS, JavaScript, and various web frameworks. I love creating responsive and user-friendly web experiences.</p>
-        </div>
-    </section>
+    <main>
+        <section id="hero">
+            <aside>
+                <h1>Transforming Your Imagination into Reality</h1>
+                <p>If you can imagine it, I can demonstrate it. Let’s bring your vision to
+                life with stunning web solutions tailored just for you</p>
+                <button onClick="window.location.href='mailto:admin@haziadan.com'">Reach out</button>
+            </aside>
+            <picture>
+                <img src="./images/web.png" alt="web image">
+            </picture>
+        </section>
 
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project">
-		  <div class="project">
-                <h3>Portfolio Projec</h3>
-                <p>Description: HomeMadeGrub is a fully functional web platform that connects home cooks and food lovers, offering a convenient way for users to order and enjoy delicious, homemade meals prepared with care. The website promotes the idea of enjoying wholesome and healthier food options from local home kitchens</p>
-                <a href="#">GitHub Repository</a>
-            </div>
+        <section id="services">
+            <section>
+                <h1>Services we offer</h1>
+            </section>
 
-                <h3>Projec 1</h3>
-                <p>Description: Developed a calculator app using HTML, CSS and javascript only</p>
-                <a href="#">GitHub Repository</a>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>Description: Slider project using HTML, CSS and Javascript</p>
-                <a href="#">GitHub Repository</a>
-            </div>
-            <!-- Add more projects as necessary -->
-        </div>
-    </section>
+            <section id="cards">
+                <div>
+                    <h2>Website Design and Development</h2>
+                    <p>Creating visually appealing and responsive websites tailored to your brand</p>
+                </div>
+                <div>
+                    <h2>Single Page Applications (SPA)</h2>
+                    <p>Building dynamic and fast-loading single-page applications using the latest technologies</p>
+                </div>
+                <div>
+                    <h2>E-commerce Solutions</h2>
+                    <p>Developing custom e-commerce platforms to help you sell products online efficiently</p>
+                </div>
+                <div>
+                    <h2>Domain Registration</h2>
+                    <p>Assisting with the registration of domain names to ensure a strong and unique online presence</p>
+                </div>
+                <div>
+                    <h2>Hosting Services</h2>
+                    <p>Providing reliable and secure web hosting solutions tailored to meet your specific needs</p>
+                </div>
+                <div>
+                    <h2>Website Maintenance and Support</h2>
+                    <p>Offering ongoing maintenance and support to keep your website running smoothly</p>
+                </div>
+                <div>
+                    <h2>API Development and Integration</h2>
+                    <p>Developing robust APIs and integrating them seamlessly with your applications</p>
+                </div>
+                <div>
+                    <h2>SEO and Performance Optimization</h2>
+                    <p>Improving your website's visibility on search engines and optimizing its performance</p>
+                </div>
+            </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>Feel free to reach out to me via email at <a href="mailto:your@email.com">adan.hazi10@email.com</a> or connect with me on <a href="https://www.linkedin.com/in/hazi-adan-391b36242/">LinkedIn</a> for potential collaboration opportunities or job inquiries.</p>
-        </div>
-    </section>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Feel free to reach out to me via email at <a href="mailto:admin@haziadan.com">admin@haziadan.com</a>
+                or connect with me on <a href="https://www.linkedin.com/in/hazi-adan-391b36242/">LinkedIn</a>
+                for potential collaboration opportunities or job inquiries.</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <div class="container">
